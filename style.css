@@ -1,0 +1,235 @@
+body{
+    margin:0px;
+}
+div.calc{
+    height:431px;
+    width:353px;
+    background-color:#434343;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    border:1px solid gray;
+}
+div.header{
+    height:20px;
+
+}
+div.calcBody{
+    height:405px;
+    padding-top: 5px;
+}
+div#selectcurrency{
+    float: right;
+
+}
+div#inputBox{
+    height: 86px;
+    clear: both;
+    background-color: white;
+    text-align: right;
+    font-style: normal;
+    font-size: 40px;
+
+}
+div.buttonBox{
+    height: 300px;
+    background-color:#434343;/*#cecfd3*/
+    height: 300px;
+
+    clear: both;
+}
+div.numberButtons{
+    width: 250px;
+    height: 300px;
+    float: left;
+    border-right: 1px solid #434343;/*#c4c5c7*/
+
+}
+
+div.operations{
+    width: 50px;
+    height: 300px;
+    background-color:#636363;/*#c4c5c7*/
+    border-right: 1px solid #636363;/*#c4c5c7*/
+    float: right;
+    color:#cecece;
+}
+div.brackets{
+    width: 50px;
+    height: 300px;
+    background-color:#636363 ;
+    border-right: 1px solid  #636363;
+    float: right;
+    color:#cecece;
+}
+div.buttons{
+    display: inline-block;
+    height: 35px;
+    width:39.33px;
+    padding: 20px 20px;
+    font-size: 25px;
+    color:#e5eae9;
+    text-align: center;
+}
+
+div.op{
+    display: inline-block;
+    height: 32px;
+    width: 38px;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 6px;
+}
+div#equalto{
+    display: inline-block;
+    height: 35px;
+    width:39.33px;
+    padding: 20px 20px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    color:#e5eae9;
+}
+div#del{
+    display: inline-block;
+    height: 32px;
+    width: 38px;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 6px;
+    cursor: pointer;
+}
+div#result1{
+    display: inline-block;
+    height:100px;
+    width: 100px;
+    border:1px solid black;
+    background-color: white;
+    float: right;
+    font-size: 40px;
+    text-align: center;
+}
+div#query{
+    height:47px;
+    text-align: right;
+    padding: 2px;
+    font-size: 30px;
+    font-style: normal;
+    overflow: hidden;
+    text-overflow: clip;
+}
+div#result{
+    height:25px;
+    text-align: right;
+    font-size: 30px;
+    padding: 1px;
+    font-style: normal;
+
+
+}
+div#AC{
+    display: inline-block;
+    height: 35px;
+    width:34.33px;
+    padding: 10px 9px;
+    font-size: 23px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+div#currencyConv{
+
+    display:inline-block;
+    height: 431px;
+    background-color: #1ee8b4;
+    width: 0px;
+    transition: width 2s;
+    transition-timing-function: ease;
+    vertical-align: top;
+    margin-right: -4px;
+
+}
+/*div.currencyConv:hover{
+    width:10px;
+}*/
+/*div#request{
+    display:inline-block;
+    height:80px;
+    width:80px;
+    background-color:black;
+    color: white;
+    border:1px solid gray;
+}*/
+
+#convertedCurrency,#selectedCurrency{
+    height:62px;
+    width: 240px;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    border:1px solid gray;
+    padding: 4px;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+   background-color:white;
+  display: none;
+
+}
+
+
+span#from,span#to,span#Rate{
+
+    margin-left: 3.5px;
+    font-size: 20px;
+    margin-right: 10px;
+display: none;
+}
+
+#slide{
+    clear: both;
+    display:inline-block;
+    background-color: #1ee8b4;
+    width:20px;
+    height:24px;
+    margin: 0px;
+    margin-right: -4px;
+    vertical-align: top;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    padding:0px;
+}
+
+div#conversionRate{
+    height:100px;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    border:1px solid gray;
+    padding: 4px;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: white;
+   display: none;
+}
+
+span#toText,span#fromText{
+    margin-left: 3.5px;
+    font-size: 20px;
+    display: none;
+
+}
+
+#finalCurrency{
+    display: none;
+}
+
+div#wholeBody{
+    display: inline-block;
+    margin-left: calc(50vw -  187.5px);
+    margin-top:calc(50vh - 216.5px);
+}
+
