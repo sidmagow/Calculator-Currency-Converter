@@ -10,5 +10,5 @@ Web App using HTML, CSS, JS, Jquery
 
 ▪ Animation effect and user Interface using Jquery.
 
-![alt text](https://github.com/sidmagow/Calculator-Currency-Converter/blob/master/Screenshot_Calculator and CurrencyConv.png?raw=true)
+![alt text](https://github.com/sidmagow/Calculator-Currency-Converter/blob/master/Screenshot.png?raw=true)
 
